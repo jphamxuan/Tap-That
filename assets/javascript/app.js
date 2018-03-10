@@ -7,6 +7,7 @@ $(".button-collapse").sideNav();
 
 $(document).ready(function() {
   $('.parallax').parallax();
+  $('select').material_select();
 });
 
 $("#download-button").on("click", function(){
