@@ -29,4 +29,8 @@
 }
 #mainTitle{
     font-family: 'Pacifico', cursive;
+    font-size: 100px;
 }
+.parallax-container {
+    height: "your height here";
+  }
