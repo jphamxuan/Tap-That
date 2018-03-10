@@ -10,9 +10,20 @@
 #slide-out{
     background-color: darkolivegreen;
 }
+
+/* page-content */
 #menu-icon{
     font-size: 45px;
+    z-index: 2;
+    position: absolute;
 }
 #sidebar-title{
     font-size: 29px;
+}
+#top-image{
+    height: 150%;
+    background-position: 0px 0px;
+}
+#index-banner{
+    margin-bottom: 0px;
 }
