@@ -46,7 +46,7 @@
 #picture-row{
     margin-bottom: -12px;
 }
-#title{
+#title, #mainTitle{
     font-family: 'Pacifico', cursive;
 }
 #text{
