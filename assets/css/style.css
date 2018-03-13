@@ -8,7 +8,7 @@
     height:100%;
 }
 #slide-out{
-    background-color: darkolivegreen;
+    background-color:dodgerblue;
 }
 
 /* Index Page CSS */
@@ -24,7 +24,11 @@
 
 }
 #sidebar-title{
+    margin-top: 103px;
     font-size: 29px;
+    font-family: 'Courgette', cursive;
+    color:dodgerblue;
+    
 }
 #top-image{
     height: 150%;
@@ -56,8 +60,10 @@
     background-image: url('../images/cork-wallet.png')
 }
 h4#text{
+    font-family: 'Courgette', cursive;
     font-weight: bold; 
 }
 p#text{
     font-size: 18px;
+    text-align: left;
 }
