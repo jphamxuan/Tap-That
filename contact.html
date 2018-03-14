@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=Istok+Web:700i|Pacifico" rel="stylesheet">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tap_That</title>
 </head>
 
 <body>
@@ -25,7 +24,7 @@
                 <a href="#!name"><span id="sidebar-title" class="white-text name">Tap That</span></a>
             </div>
         </li>
-        <li><a class="waves-effect" href="index.html"><i class="material-icons">search</i>Search For New Pal</a></li>
+        <li><a class="waves-effect" href="index.html"><i class="material-icons">search</i>Search For New Best Friend</a></li>
         <li><a class="waves-effect" href="why-adopt.html"><i class="material-icons">info_outline</i> Why Adopt?</a></li>
         <li><a class="waves-effect" href="contact.html"><i class="material-icons">call</i>Contact Us</a></li>
         <li>
@@ -35,47 +34,56 @@
     <a href="#" data-activates="slide-out" class="button-collapse"><i id="menu-icon" class="material-icons">menu</i></a>
     <!-- Page Content -->
     <div class="parallax-container">
-        <div class="parallax"><img id="top-image" src="./assets/images/sunset-dog.jpg" style="display: block; transform: translate3d(-50%, 100px,0px);"></div>
+        <div class="parallax"><img id="top-image" src="./assets/images/sofa-dog.jpg" style="display: block; transform: translate3d(-50%, 50px, 0px);"></div>
     </div>
     <div class="section no-pad-bot" id="index-banner">
-        <div class="container" id="searchDiv">
+        <div class="container">
             <br><br>
-            <h1 class="header center blue-text" id="mainTitle">Pick a Pal</h1>
-            <div class="row center" id="pet-choose">
-                <div class="input-field col s6">
-                    <select class="icons" id="petDropdown">
-                  <option value="" disabled selected>Adopt a Pet</option>
-                  <option value="" data-icon="assets/images/puppers.jpg" id="puppers"class="left circle">Puppers</option>
-                  <option value="" data-icon="assets/images/kittens.jpg" class="left circle">Kittens</option>
-                  <option value="" data-icon="assets/images/puppy_cat.jpg" class="left circle">GIVE ME ALL THE FLUFFIES!</option>
-                </select>
-                    <label></label>
-                </div>
-                <div class="input-field col s6">
-                    <input value="" id="zipcode" type="text" class="validate">
-                    <label class="active" for="zipcode">Zipcode</label>
-                </div>
-            </div>
-            <div class="row center" id="all-info"></div>
-            <div class="row center" id="button-row">
-                <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Search</a>
+            <h1 class="header center blue-text" id="mainTitle">Contact</h1>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
 
+                </form>
             </div>
-
+            <div class="row center">
+                <a href="#" id="send-button" class="btn-large waves-effect waves-light orange">Send</a>
+            </div>
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="./assets/images/two-dogs.jpg" style="display: block; transform: translate3d(-50%, 200px, 0px);"></div>
+        <div class="parallax"><img src="./assets/images/dog_jump.jpg" style="display: block; transform: translate3d(-50%, 200px, 0px);"></div>
     </div>
 
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <!-- Firebase Reference -->
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
     <!-- Script -->
     <script src="./assets/javascript/app.js"></script>
+
 </body>
 
 </html>
