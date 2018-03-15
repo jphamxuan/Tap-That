@@ -5,6 +5,7 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link rel="stylesheet" href="assets/css/reset.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
       <link href="https://fonts.googleapis.com/css?family=Istok+Web:700i|Pacifico" rel="stylesheet">
       <link rel="stylesheet" href="assets/css/style.css">
@@ -14,19 +15,21 @@
 
     <body>
         <!-- Side Nav Bar -->
-          <ul id="slide-out" class="side-nav">
-                  <li><div class="user-view">
-                      <div class="background">
-                      <img id="sidebar-background"src="assets/images/beers.jpg">
-                      </div>
-                      <a href="#!name"><span id="sidebar-title" class="white-text name">Tap That</span></a>
-                  </div></li>
-                  <li><a class="waves-effect" href="index.html"><i class="material-icons">search</i>Search For New Best Friend</a></li>
-                  <li><a class="waves-effect" href="why-adopt.html"><i class="material-icons">info_outline</i> Why Adopt?</a></li>
-                  <li><a class="waves-effect" href="contact.html"><i class="material-icons">call</i>Contact Us</a></li>
-                  <li><div class="divider"></div></li>
-                  </ul>
-                  <a href="#" data-activates="slide-out" class="button-collapse"><i id="menu-icon" class="material-icons">menu</i></a>
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="user-view">
+                  <div class="background">
+                  <img id="sidebar-background"src="assets/images/sidebar-image.jpg">
+                  </div>
+                <a href="#!name"><span id="side-name" class="name">Pick-A-Pal</span></a>
+              </div>
+          </li>
+            <li><a class="waves-effect" href="index.html"><i class="material-icons">search</i>Search For New Best Friend</a></li>
+            <li><a class="waves-effect" href="why-adopt.html"><i class="material-icons">info_outline</i> Why Adopt?</a></li>
+            <li><a class="waves-effect" href="contact.html"><i class="material-icons">call</i>Contact Us</a></li>
+            <li><div class="divider"></div></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i id="menu-icon" class="material-icons">menu</i></a>
           <!-- Page Content -->
                   
             <div class="parallax-container">
@@ -71,36 +74,38 @@
             <div class="parallax-container">
                 <div class="parallax"><img src="./assets/images/man-woman-dog.jpg" style="display: block; transform: translate3d(-50%, 200px, 0px);"></div>
             </div>
-            <div class="section white" id="index-banner">
+              <!-- Slide Show For Why Adopt -->
+              <div class="section white" id="index-banner">
                 <div class="row container">
-                    <h4 class="header center" id="text">5. People Love Animals!!!</h4>
-                    <div class="row center" id="picture-row">
-                        <div class="col s12">
-                        <img id="animal-pictures" src="./assets/images/woman-dog.jpg" alt="Woman and Dog">
-                        <img id="animal-pictures" src="./assets/images/old-people.jpg" alt="Old Man">
-                        </div>
-                    </div>
-                    <div class="row center" id="picture-row">
-                        <div class="col s12">
-                            <img id="animal-pictures" src="./assets/images/cat-dude.jpg" alt="Cat Dude">
-                            <img id="animal-pictures" src="./assets/images/dog1.jpg" alt="Dog">
-                        </div>
-                    </div>
-                    <div class="row center" id="picture-row">
-                        <div class="col s12">
-                        <img id="animal-pictures" src="./assets/images/dog4.jpg" alt="Dog">  
-                        <img id="animal-pictures" src="./assets/images/cat1.jpg" alt="Cat">
-                        </div>
-                    </div>
-                    <div class="row center" id="picture-row">
-                            <div class="col s12">
-                            <img id="animal-pictures" src="./assets/images/cat2.png" alt="Cat">
-                            <img id="animal-pictures" src="./assets/images/dog3.jpg" alt="Dog">  
-                            </div>
-                        </div>
-                    
+                    <h4 class="header center" id="text">5. People Love Animals!</h4>
+                        <div class="w3-content w3-display-container" style="max-width:700px;
+                        max-height: 400px">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/woman-dog.jpg" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/old-people.jpg" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/cat-dude.jpg" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/dog1.jpg" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/dog4.jpg" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/cat1.jpg" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/cat2.png" style="width:100%; height: 300px;">
+                            <img class="mySlides w3-animate-fading" src="./assets/images/dog3.jpg" style="width:100%; height: 300px;">
+                          </div>
                 </div>
             </div>
+            <!-- Footer For all Pages -->
+            <footer class="page-footer">
+                
+                <div class="footer-copyright">
+                    <div class="container" id="footer-copy">
+                    © 2018 Pick-A-Pal
+                    </div>
+                    <div id="logos">
+                        <img src="./assets/images/logos/instagram.png" alt="instagram">
+                        <img src="./assets/images/logos/twitter.png" alt="twitter">
+                        <img src="./assets/images/logos/facebook.png" alt="facebook">
+                    </div>
+                </div>
+            </footer>
+            
         
         
   

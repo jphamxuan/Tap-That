@@ -107,7 +107,7 @@ $(document).ready(function () {
                             var rescueBreed = rescue.breeds.breed[j].$t
                         }
                     }
-                    $('#slideshowResults').append("<div class='petDiv fade' id='" + name + "'><img src='" + petPicture + "' style='width:500px; height:500px;'><div class='text'><h1>" + name + "</h1><p>Sex: " + sex + "</p><p>Age: " + age + "</p><br><button id='moreBTN' value='"+ description +"' nameValue='"+ name +"' class='"+ name +" btn-large waves-effect waves-light orange'>More Information</button><div id=moreDiv>"+description+"<div></div><br></div>");
+                    $('#slideshowResults').append("<div class='petDiv fade' id='" + name + "'><img src='" + petPicture + "' style='width:500px;'><div class='text'><h2>" + name + "</h2><p>Sex: " + sex + "</p><p>Age: " + age + "</p><br><button id='moreBTN' value='"+ description +"' nameValue='"+ name +"' class='"+ name +" btn-large waves-effect waves-light orange'>More Information</button><div id=moreDiv>"+description+"<div></div><br></div>");
                     $('#moreDiv').hide()
                     $('.slideshow-container').show()
                 }
@@ -165,3 +165,18 @@ $(document).ready(function () {
         $("#moreDiv").hide();
     })
 });
+// Why Adopt Slide-Show
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
