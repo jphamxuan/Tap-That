@@ -68,7 +68,7 @@ $(document).ready(function () {
         $('#pet-choose').append("<div class='slideshow-container'><div id='slideshowResults'></div><a id='prev' class='prev' data-value='-1' >&#10094;</a><a class='next' data-value='1' id='next'>&#10095;</a></div>")
         document.getElementById("next").addEventListener("click", plusSlides, false);
         document.getElementById("prev").addEventListener("click", minusSlides, false);
-        var url = 'http://api.petfinder.com/pet.find';
+        var url = 'https://api.petfinder.com/pet.find';
         $.ajax({
             url: url,
             jsonp: "callback",
