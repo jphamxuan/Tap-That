@@ -20,7 +20,7 @@ $(document).ready(function () {
         projectId: "pick-a-pet",
         storageBucket: "",
         messagingSenderId: "1099432899618"
-    };
+    };  
     firebase.initializeApp(config);
     var userId = 0;
     $('.parallax').parallax();
