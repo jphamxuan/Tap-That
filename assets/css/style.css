@@ -65,8 +65,11 @@ p#text{
     font-size: 18px;
 }
 .parallax-container {
-    height: 600px;
+    height: 700px;
   }
-#white-dog{
-
+#pawprint{
+        transform: rotate(20deg);
+}
+#index-pic{
+    margin-bottom: -10px;
 }
