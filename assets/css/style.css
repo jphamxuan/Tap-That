@@ -93,8 +93,8 @@ h2{
     margin-top: 0px;
 }
 #side-name{
-    color: whitesmoke;
-    font-family: 'Courgette', cursive;
+    color: black;
+    font-family: 'Architects Daughter', cursive;
     font-size: 32px;
     margin-top: 126px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -108,7 +108,19 @@ h2{
 }
 .waves-effect{
     font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
 }
 .social{
     font-size: 50px;
+}
+.next, .prev{
+    font-size: 70px;
+}
+#moreDiv{
+    text-align: left;   
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+.text{
+    font-size: 20px;
 }
