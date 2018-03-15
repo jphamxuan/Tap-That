@@ -74,7 +74,8 @@ p#text{
     margin-bottom: -10px;
 }
 h2{
-    font-family: 'Gloria Hallelujah', cursive;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Permanent Marker', cursive;
 }
 /* Side Nav Bar */
 .user-view{
@@ -104,4 +105,10 @@ h2{
 }
 #logos{
     margin-right: 15px;
+}
+.waves-effect{
+    font-family: 'Architects Daughter', cursive;
+}
+.social{
+    font-size: 50px;
 }

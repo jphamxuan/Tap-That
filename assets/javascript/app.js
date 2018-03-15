@@ -76,7 +76,7 @@ $(document).ready(function () {
             data: {
                 key: pfApiKey,
                 animal: searchAnimal,
-                'location': '92617',
+                'location': zip,
                 output: 'basic',
                 format: 'json',
                 count: '20'
